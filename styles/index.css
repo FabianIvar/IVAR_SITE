@@ -1,6 +1,6 @@
 @fontface {
-  font-family: HackNerdFont;
-  src: url(../assets/fonts/HackNerdFontMono-Regular.ttf);
+  font-family: 'HackNerdFont';
+  src: url('assets/fonts/HackNerdFontMono-Regular.ttf') format('truetype');
 }
 
 /* @fontface {
