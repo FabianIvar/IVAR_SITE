@@ -27,10 +27,8 @@
 
 .navigator_container {
   display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   margin: auto;
+  inline-size: fit-content;
 
   position: relative;
   top: -2rem;
@@ -39,16 +37,10 @@
   padding-left: 0.25rem;
   padding-right: 0.75rem;
   padding-bottom: 0.75rem;
-  inline-size: fit-content;
   border-style: solid;
 }
 
 a.navigator:link {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-
   position: relative;
   top: 0rem;
   left: 0.25rem;
@@ -56,5 +48,4 @@ a.navigator:link {
   color: rgb(255, 0, 0);
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-  border-style: none;
 }
