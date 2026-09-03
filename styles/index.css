@@ -1,12 +1,12 @@
 @fontface {
-  font-family: "HackNerdFont";
-  src: url("../assets/fonts/HackNerdFontMono-Regular.ttf") format('truetype');
+  font-family: HackNerdFont;
+  src: url(../assets/fonts/HackNerdFontMono-Regular.ttf);
 }
 
-@fontface {
+/* @fontface {
   font-family: "OldEnglishFive";
   src: url("../assets/fonts/OldEnglishFive.tff") format('truetype');
-}
+} */
 
 .main {
   font-family: "HackNerdFont";
@@ -15,8 +15,7 @@
 }
 
 .dramatic {
-  font-family:
+  font-family: "Times New Roman"
   background-color: black;
   color: white;
-
 }
