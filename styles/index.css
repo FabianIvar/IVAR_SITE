@@ -1,0 +1,22 @@
+@fontface {
+  font-family: "HackNerdFont";
+  src: url("../assets/fonts/HackNerdFontMono-Regular.ttf") format('truetype');
+}
+
+@fontface {
+  font-family: "OldEnglishFive";
+  src: url("../assets/fonts/OldEnglishFive.tff") format('truetype');
+}
+
+.main {
+  font-family: "HackNerdFont";
+  background-color: black;
+  color: white;
+}
+
+.dramatic {
+  font-family:
+  background-color: black;
+  color: white;
+
+}
