@@ -1,21 +1,60 @@
-@fontface {
-  font-family: 'HackNerdFont';
-  src: url('assets/fonts/HackNerdFontMono-Regular.ttf') format('truetype');
-}
-
 /* @fontface {
   font-family: "OldEnglishFive";
   src: url("../assets/fonts/OldEnglishFive.tff") format('truetype');
 } */
 
 .main {
-  font-family: "HackNerdFont";
+  font-family: "Arial";
+  font-weight: 900;
+  font-size: 1.5rem;
+
   background-color: black;
   color: white;
 }
-/* 
+
 .dramatic {
   font-family: "Times New Roman";
+  position: relative;
+  top: -1rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding-left:
   background-color: black;
   color: white;
-} */
+
+}
+
+.navigator_container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  position: relative;
+  top: -2rem;
+  border: 0.15rem;
+  padding-top: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  inline-size: fit-content;
+  border-style: solid;
+}
+
+a.navigator:link {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: 0rem;
+  left: 0.25rem;
+  right: 0.25rem;
+  color: rgb(255, 0, 0);
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  border-style: none;
+}
