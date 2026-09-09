@@ -6,16 +6,29 @@
 .main {
   font-family: "Arial";
   font-weight: 900;
-  font-size: 1.5rem;
-
+  font-size: 1.5em;
   background-color: black;
   color: white;
+}
+
+.center_horizontal {
+  display: flex;
+  justify-content: center;
 }
 
 /* ======[ Navigator ]====== */
 
   .navigator_container {
-    position: sticky;
+    position: fixed;
+    top: 0rem;
+    padding-top: 0.5em;
+    background-color: black;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+
+
   }
 
   .navigator_contents {
@@ -28,6 +41,7 @@
   }
 
   .ravii {
+
     display: inline;
     position: relative;
     padding-bottom: 0rem;
@@ -72,4 +86,9 @@
     padding-right: 1rem;
   }
 
-/* ======[ /navigator ]====== */
+/* ======[ Socials ]====== */
+
+#socials {
+  position: relative;
+  top: 5rem;
+}
