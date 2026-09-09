@@ -3,10 +3,6 @@
   src: url("../assets/fonts/OldEnglishFive.ttf");
 }
 
-.test {
-  font-family: "OldEn";
-}
-
 .main {
   font-family: "Arial";
   font-weight: 900;
@@ -16,39 +12,64 @@
   color: white;
 }
 
-.dramatic {
-  font-family: "Times New Roman";
-  position: relative;
-  top: -1rem;
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  background-color: black;
-  color: white;
+/* ======[ Navigator ]====== */
 
-}
+  .navigator_container {
+    position: sticky;
+  }
 
-.navigator_container {
-  display: flex;
-  margin: auto;
-  inline-size: fit-content;
+  .navigator_contents {
+    font-family: "OldEn";
+    position: relative;
+    inline-size: fit-content;
+    padding-bottom: 0.5rem;
+    border: 2.5px solid rgba(0,0,0,0);
+    border-bottom: 2.5px solid white;
+  }
 
-  position: relative;
-  top: -2rem;
-  border: 0.15rem;
-  padding-top: 0.5rem;
-  padding-left: 0.25rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  border-style: solid;
-}
+  .ravii {
+    display: inline;
+    position: relative;
+    padding-bottom: 0rem;
+    padding-left: 0.25rem;
+    padding-right: 1rem;
+    margin-right: 0.5rem;
+    border: 2.5px solid rgba(0, 0, 0, 0);
+    border-right: 2.5px solid white;
 
-a.navigator:link {
-  position: relative;
-  top: 0rem;
-  left: 0.25rem;
-  right: 0.25rem;
-  color: rgb(255, 0, 0);
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
+    top: 0rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .links {
+    position: relative;
+    display: inline;
+    left: -0.25rem;
+    top: -0.125rem;
+  }
+
+   .last { /* Last button in navigator bar */
+    display: inline;
+    border: none;
+    border-right: none;
+  }
+
+  a.navigator:link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    left: -0.5rem;
+    padding-right: 1rem;
+    border: 2.5px solid rgba(0, 0, 0, 0);
+    border-right: 2.5px solid white;
+  }
+
+  a.navigator_last:link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    left: -0.5rem;
+    padding-right: 1rem;
+  }
+
+/* ======[ /navigator ]====== */
