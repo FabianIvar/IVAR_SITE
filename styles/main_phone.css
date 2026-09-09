@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "OldEn";
+  src: url("../assets/fonts/OldEnglishFive.ttf");
+}
+
+.main {
+  font-weight: 900;
+  font-size: 1.5em;
+  background-color: black;
+  color: white;
+}
+
+.center_horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+/* ======[ Navigator ]====== */
+
+  .navigator_container {
+    font-family: "OldEn";
+    font-weight: 900;
+    font-size: 1em;
+    position: fixed;
+    top: 0rem;
+    padding-top: 0.5em;
+    background-color: black;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigator_contents {
+    font-family: "OldEn";
+    position: relative;
+    inline-size: fit-content;
+    padding-bottom: 0.5rem;
+    border: 2.5px solid rgba(0,0,0,0);
+    border-bottom: 2.5px solid white;
+  }
+
+  .ravii {
+
+    display: inline;
+    position: relative;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2.5px solid rgba(0, 0, 0, 0);
+    border-right: 2.5px solid white;
+    top: 0rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .links {
+    position: relative;
+    display: inline;
+    top: -0.125rem;
+  }
+
+  a.navigator:link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding-right: 1rem;
+    border: 2.5px solid rgba(0, 0, 0, 0);
+    border-right: 2.5px solid white;
+  }
+
+  a.navigator_last:link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding-right: 1rem;
+  }
+
+/* ======[ Socials ]====== */
+
+#socials {
+  position: relative;
+  top: 5rem;
+}

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "OldEn";
+  src: url("../assets/fonts/OldEnglishFive.ttf");
+}
+
+/* ======[ Navigator ]====== */
+
+  .navigator_container {
+    font-family: "OldEn";
+    font-weight: 900;
+    font-size: 1em;
+    position: fixed;
+    top: 0rem;
+    padding-top: 0.5em;
+    background-color: black;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigator_contents {
+    font-family: "OldEn";
+    position: relative;
+    inline-size: fit-content;
+    padding-bottom: 0.5rem;
+    border: 2.5px solid rgba(0,0,0,0);
+    border-bottom: 2.5px solid white;
+  }
+
+  .ravii {
+    display: inline;
+    position: relative;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+    top: 0rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .links {
+    position: relative;
+    display: inline;
+    top: -0.125rem;
+  }
+
+  a.navigator:link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding-left: 1rem;
+    border: 2.5px solid rgba(0, 0, 0, 0);
+    border-left: 2.5px solid white;
+  }
+
+  a.navigator_last:link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding-right: 1rem;
+  }
