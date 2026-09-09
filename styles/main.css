@@ -4,7 +4,6 @@
 }
 
 .main {
-  font-family: "Arial";
   font-weight: 900;
   font-size: 1.5em;
   background-color: black;
@@ -19,6 +18,9 @@
 /* ======[ Navigator ]====== */
 
   .navigator_container {
+    font-family: "OldEn";
+    font-weight: 900;
+    font-size: 1em;
     position: fixed;
     top: 0rem;
     padding-top: 0.5em;
@@ -27,8 +29,6 @@
     right: 0px;
     display: flex;
     justify-content: center;
-
-
   }
 
   .navigator_contents {
@@ -45,12 +45,10 @@
     display: inline;
     position: relative;
     padding-bottom: 0rem;
-    padding-left: 0.25rem;
+    padding-left: 1rem;
     padding-right: 1rem;
-    margin-right: 0.5rem;
     border: 2.5px solid rgba(0, 0, 0, 0);
     border-right: 2.5px solid white;
-
     top: 0rem;
     color: rgb(255, 255, 255);
   }
@@ -58,21 +56,13 @@
   .links {
     position: relative;
     display: inline;
-    left: -0.25rem;
     top: -0.125rem;
-  }
-
-   .last { /* Last button in navigator bar */
-    display: inline;
-    border: none;
-    border-right: none;
   }
 
   a.navigator:link {
     position: relative;
     text-decoration: none;
     color: rgb(255, 0, 0);
-    left: -0.5rem;
     padding-right: 1rem;
     border: 2.5px solid rgba(0, 0, 0, 0);
     border-right: 2.5px solid white;
@@ -82,7 +72,6 @@
     position: relative;
     text-decoration: none;
     color: rgb(255, 0, 0);
-    left: -0.5rem;
     padding-right: 1rem;
   }
 
